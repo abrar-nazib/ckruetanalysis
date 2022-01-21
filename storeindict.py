@@ -3,7 +3,7 @@ import fitz
 import re
 import csv
 
-file1 = fitz.open("ka-29.pdf")
+file1 = fitz.open("ka18.pdf")
 csv_file = open('MTE.csv', "w")
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['Roll', 'Name', 'Merit', 'Subject'])
